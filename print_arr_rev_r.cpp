@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+void f(long long n,long long arr[]){
+    if(n<0){
+        return;
+    }
+    cout<<arr[n]<<" ";
+    f(n-1,arr);
+}
+
+int main(){
+    long long n;
+    cin>>n;
+    long long arr[n];
+    for(long long i=0;i<n;i++){
+        cin>>arr[i];
+    }
+    f(n-1,arr);
+    return 0;
+}

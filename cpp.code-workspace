@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"uri": "d:\\cpp"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "cpp"
+	}
+}
